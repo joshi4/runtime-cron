@@ -1,0 +1,6 @@
+ - type: cron
+    name: date
+    env: python
+    schedule: "0 * * * *"
+    buildCommand: "true" # ensure it's a string
+    startCommand: date
