@@ -1,7 +1,7 @@
 services:
   - type: cron
     name: date
-    env: ruby
+    runtime: ruby
     schedule: "0 * * * *"
     buildCommand: "true" # ensure it's a string
     startCommand: date
