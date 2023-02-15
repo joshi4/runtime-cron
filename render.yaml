@@ -1,4 +1,5 @@
- - type: cron
+services:
+  - type: cron
     name: date
     env: python
     schedule: "0 * * * *"
