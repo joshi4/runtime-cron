@@ -1,6 +1,7 @@
 services:
   - type: cron
     name: date
+    maxShutdownDurationSeconds: 100
     env: python
     schedule: "0 * * * *"
     buildCommand: "true" # ensure it's a string
